@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+.display-calc {
+    color: white;
+    height: 5rem;
+    width: inherit;
+    box-shadow: inherit;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    align-content: flex-end;
+
+}
+p {
+  margin-top: 30px;
+  margin-left: 20rem;
+  font-size: 30px;
+}
+.container {
+    margin: 40px auto;
+    /* border: 1px solid rgb(255, 196, 0); */
+    box-shadow: 0.5px 0.5px 2px 3px rgb(255, 196, 0);
+    width: 25rem;
+    height: 32rem;
+    /* border-radius: 20px; */
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    /* border: 1px solid white; */
+    height: 25rem;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+button {
+    cursor: pointer;
+}
+.row-1, .row-2, .row-3 {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    /* margin: 0px 10px; */
+}
+.row-1 > button, .row-2 > button, .row-3 > button {
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: lavender;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.row-1 > button:nth-child(4), .row-2 > button:nth-child(4), .row-3 > button:nth-child(3) {
+    background-color: rgb(255, 196, 0);
+}
+.row-2 > button, .row-3 > button {
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+}
+.row-3 >button:nth-child(1) {
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+
